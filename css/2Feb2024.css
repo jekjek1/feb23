@@ -1,0 +1,145 @@
+html {
+    background-color: #869960;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 87%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Banner Overlay */
+.image-banner {
+    position: relative;
+}
+
+
+
+.banner-caption {
+    position: absolute;
+    bottom: -50px;
+    left: 50px;
+    background-color: rgba(0, 0, 0, 5);
+    padding: 15px 25px;
+}
+
+.banner-caption p {
+    color: red;
+
+}
+/* End Banner Overlay */
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.content-area {
+    
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.main {
+    width: 70%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.support {
+    width: 30%;
+    float: left;
+    background-color: aliceblue;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    font-size: 85%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fix {
+    clear: both;
+}
+
+p {
+    color: gray;
+}
+
+footer p {
+    color: red;
+    text-align: center;
+    font-size: 85%;
+    color: #999;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+    font-size: 165%;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header p {
+    color: green;
+}
+
+aside {
+    color: rgb(174, 214, 143);
+}
+
+header p span {
+    color: blue;
+}
+
+.highlight {
+    color: crimson;
+    background-color: yellow;
+}
+
+.brand-color {
+    color: yellow;
+    background-color: blue;
+}
+
+/* Site Navigation */
+.site-nav li {
+    list-style: none;
+    float: left;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav {
+    margin-top: 20px;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: chocolate;
+    padding: 10px 20px;
+    border: 3px solid #617140;
+    display: block;
+    border-bottom: none;
+}
+
+.site-nav a:hover {
+    background-color: #e5e9dc;
+}
+/* End of Site Navigation */
